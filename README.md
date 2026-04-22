@@ -1,5 +1,3 @@
-# MOT-Task-Psychtoolbox-MacOS
-Multiple Object Tracking (MOT) task originally developed in 2009, updated in 2026 for compatibility with modern macOS, Octave/MATLAB, and Psychtoolbox-3.
 # MOT Task Psychtoolbox (MacOS)
 
 Multiple Object Tracking (MOT) task developed for clinical research. This framework was originally authored in 2009 and has been updated in 2026 to support **modern macOS environments** using **Octave** and **Psychtoolbox-3**.
