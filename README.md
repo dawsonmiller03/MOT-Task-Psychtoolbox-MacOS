@@ -27,7 +27,6 @@ The task is currently configured with local file paths. To save data successfull
 1. Open the main script in Octave/MATLAB.
 2. Navigate to **Line 644**.
 3. Change the path string to a directory on your machine.
-   * *Example:* Change `'/Users/dawsonmiller/Desktop/Creatine/Data/'` to your local project folder.
 
 ---
 
