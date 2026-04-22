@@ -1,0 +1,27 @@
+# --- Octave/MATLAB Specifics ---
+*.asv
+*.m~
+*.slxc
+*.mex*
+*.p
+*.mat
+*.fig
+.octave_hist
+octave-workspace
+
+# --- Data Safety (Crucial for Research) ---
+Data/
+*.csv
+*.xlsx
+*.log
+
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# --- Personal Configs ---
+# In case you create a separate file for your local paths
+config.m
+local_paths.m
