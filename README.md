@@ -14,7 +14,7 @@ Multiple Object Tracking (MOT) task developed for clinical research. This framew
 ## 🛠️ Prerequisites
 Before running the task, ensure you have the following installed:
 1. **Octave** (or MATLAB)
-2. **Psychtoolbox-3** (PTB-3)
+2. **Psychtoolbox-3** (PTB-3, Paid License)
 3. **GStreamer** (Required for PTB-3 media/timing on macOS)
 
 ---
