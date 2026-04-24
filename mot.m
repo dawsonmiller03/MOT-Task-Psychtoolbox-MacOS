@@ -646,11 +646,11 @@ opp_hemi_acc = mean(opp_hemi_trials(:,9));
 % ============================================================
 % USER CONFIGURATION REQUIRED: CHANGE DIRECTORY BELOW
 % ============================================================
-path = '/Users/dawsonmiller/Desktop/Creatine/Data/'; % Change appropriate pathway
+path = ; % <------ ||IMPORTANT|| ENTER SAVE PATHWAY HERE
 subid_str = strtrim(sub_idstring);
 t = datevec(now);
 timer = strcat(num2str(t(1)),'_',num2str(t(2)),'_',num2str(t(3)),'_',num2str(t(4)),'_',num2str(t(5)));
-filename = [path subid_str '_MOT_cond_' timer];
+filename = [path subid_str '_MOT_cond_' timer]; % Creates a matrix of usable data
 
 % Make sure the folder exists
 if ~exist(path, 'dir')
