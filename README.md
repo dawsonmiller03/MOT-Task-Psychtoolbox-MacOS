@@ -6,6 +6,7 @@ Multiple Object Tracking (MOT) task developed for clinical research. This framew
 
 ## 🚀 2026 Updates
 * **macOS Compatibility:** Optimized for modern display refresh rates and security permissions on Apple Silicon/Intel Macs.
+* **Input Mapping:** Refactored keyboard polling and input binds to ensure native compatibility with macOS-specific key inputs (e.g., "Y" and "N" keycode alignment).
 * **MATLAB/Octave Integration:** Fully tested on Octave 9.x+ (open-source) as a free alternative to MATLAB.
 * **Error Handling:** Improved Psychtoolbox screen initialization and keyboard polling.
 
@@ -14,7 +15,7 @@ Multiple Object Tracking (MOT) task developed for clinical research. This framew
 ## 🛠️ Prerequisites
 Before running the task, ensure you have the following installed:
 1. **Octave** (or MATLAB)
-2. **Psychtoolbox-3** (PTB-3, Paid License)
+2. **Psychtoolbox-3** (PTB-3)
 3. **GStreamer** (Required for PTB-3 media/timing on macOS)
 
 ---
