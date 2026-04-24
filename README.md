@@ -29,7 +29,6 @@ The task is currently configured with local file paths. To save data successfull
 ---
 
 ## 🧪 Task Design
-The script runs a within-subjects MOT task:
 * **Stimuli:** 8 spheres (4 pairs).
 * **Target Identification:** 2 targets briefly highlighted green.
 * **Movement:** Dynamic circular motion within pairs.
@@ -39,7 +38,7 @@ The script runs a within-subjects MOT task:
 ---
 
 ## 📂 Repository Structure
-- `mot.m` – Main experiment script (modernized from 2009 version for macOS compatibility).
+- `mot.m` – Main script (modernized from 2009 version for macOS compatibility).
 - `mot_demo.m` – Demo script to quickly run and preview the task.
 - `.gitignore` – Specifies files and directories excluded from version control.
 - `LICENSE` – MIT License for project use and distribution.
