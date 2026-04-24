@@ -44,7 +44,15 @@ The task is currently configured with local file paths. To save data successfull
 - `.gitignore` – Specifies files and directories excluded from version control.
 - `LICENSE` – MIT License for project use and distribution.
 - `README.md` – Project overview and usage instructions.
+---
 
+## 🛠️ Maintenance & Future-Proofing
+This project is currently considered **feature-complete** and stable for macOS (2026). However, due to the evolution of Apple Silicon architecture and macOS security protocols, future updates may be required if:
+* Apple introduces significant changes to display synch (refresh rate handling).
+* Native keycode mappings are altered in future macOS versions (Y & N input values).
+* Psychtoolbox-3 or Octave undergo major API changes.
+
+Users are encouraged to report any compatibility issues via the GitHub Issues tab.
 ---
 
 ## 📄 License & Attribution
