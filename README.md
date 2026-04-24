@@ -39,9 +39,11 @@ The script runs a within-subjects MOT task:
 ---
 
 ## 📂 Repository Structure
-* `/src`: The modernized `.m` scripts.
-* `/docs`: Original documentation and 2026 update logs.
-* `/assets`: Visual stimuli or trial parameters.
+- `mot.m` – Main experiment script (modernized from 2009 version for macOS compatibility).
+- `mot_demo.m` – Demo script to quickly run and preview the task.
+- `.gitignore` – Specifies files and directories excluded from version control.
+- `LICENSE` – MIT License for project use and distribution.
+- `README.md` – Project overview and usage instructions.
 
 ---
 
