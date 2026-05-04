@@ -36,6 +36,9 @@ The task is currently configured with local file paths. To save data successfull
 * **Response:** Forced-choice (Y/N) for target matching.
 * **Data Output:** Automatic CSV export of Response Time (RT) and Accuracy.
 
+<img width="757" height="513" alt="Example_Test" src="https://github.com/user-attachments/assets/931edb58-a1c9-4260-bb96-4953872671c8" />
+
+
 ---
 
 ## 📂 Repository Structure
