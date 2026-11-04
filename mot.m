@@ -548,7 +548,7 @@ Screen('Flip',w);
         end
 
 
-          %% Check correct response
+          %% Check correct response | CHANGE ACCORDING TO INPUT KEYBINDS (y = ?, n = ?)
         if (cond(n,3) == 0) && (cond(n,7) == 17)
             cond(n,9) = 1; % correct (left)
         elseif (cond(n,3) == 1) && (cond(n,7) == 30)
