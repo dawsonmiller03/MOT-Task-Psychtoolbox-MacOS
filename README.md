@@ -2,7 +2,7 @@
 
 Multiple Object Tracking (MOT) task developed for clinical research. This framework was originally authored in 2009 and has been updated in 2026 to support **modern macOS environments** using **Octave** and **Psychtoolbox-3**.
 
-MAKE SURE TO CHANGE DATA SAVE PATHWAY - line 649 in "mot.m" file (will not save data unless appropriate path is used)
+**⚠️** MAKE SURE TO CHANGE DATA SAVE PATHWAY - line 649 in "mot.m" file (will not save data unless appropriate path is used)
 ---
 
 ## 2026 Updates
@@ -13,7 +13,7 @@ MAKE SURE TO CHANGE DATA SAVE PATHWAY - line 649 in "mot.m" file (will not save 
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 Before running the task, ensure you have the following installed:
 1. **Octave** (or MATLAB)
 2. **Psychtoolbox-3** (PTB-3)
@@ -21,16 +21,7 @@ Before running the task, ensure you have the following installed:
 
 ---
 
-## ⚠️ Critical Configuration (Required)
-The task is currently configured with local file paths. To save data successfully on your machine, you **must** update the output directory:
-
-1. Open the main script in Octave/MATLAB.
-2. Navigate to **Line 644**.
-3. Change the path string to a directory on your machine.
-
----
-
-## 🧪 Task Design
+## Task Design
 * **Stimuli:** 8 spheres (4 pairs).
 * **Target Identification:** 2 targets briefly highlighted green.
 * **Movement:** Dynamic circular motion within pairs.
@@ -42,7 +33,7 @@ The task is currently configured with local file paths. To save data successfull
 
 ---
 
-## 📂 Repository Structure
+## Repo Structure
 - `mot.m` – Main script (modernized from 2009 version for macOS compatibility).
 - `mot_demo.m` – Demo script to quickly run and preview the task.
 - `.gitignore` – Specifies files and directories excluded from version control.
@@ -50,7 +41,7 @@ The task is currently configured with local file paths. To save data successfull
 - `README.md` – Project overview and usage instructions.
 ---
 
-## 🛠️ Maintenance & Future-Proofing
+## Future-Proofing
 This project is currently considered **feature-complete** and stable for macOS (2026). However, due to the evolution of Apple Silicon architecture and macOS security protocols, future updates may be required if:
 * Apple introduces significant changes to display synch (refresh rate handling).
 * Native keycode mappings are altered in future macOS versions (Y & N input values).
