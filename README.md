@@ -3,6 +3,7 @@
 Multiple Object Tracking (MOT) task developed for clinical research. This framework was originally authored in 2009 and has been updated in 2026 to support **modern macOS environments** using **Octave** and **Psychtoolbox-3**.
 
 **⚠️** MAKE SURE TO CHANGE DATA SAVE PATHWAY - line 649 in "mot.m" file (will not save data unless appropriate path is used)
+**⚠️** MAKE SURE TO CHANGE INPUT KEYBINDS FOR YES AND NO - line 551
 ---
 
 ## 2026 Updates
